@@ -177,38 +177,61 @@ ___
 ___
 
 ## Requisitos funcionales
+
 Trabajadores
+
  RF01: Eliminar anuncio.
+ 
  RF02: Crear anuncio.
+ 
  RF03: Modificar Anuncio.
+ 
  RF04: Buscar coche.
+ 
  RF05: Filtrar coche.
+ 
  RF06: Contactar con clientes.
 
 ### Clientes
+
  RF01: Comprar coche.
+ 
  RF02: Solicitar visita.
+ 
  RF03: Buscar coche.
+ 
  RF04: Reservar coche.
+ 
  RF05: Filtrar coche.
+ 
  RF06: Contactar con el concesionario.
 
 ### Administrador
+
  RF01: Añadir trabajador
+ 
  RF02: Eliminar trabajador
+ 
  RF03: Eliminar anuncio
+ 
  RF04: Crear anuncio
+ 
  RF05: Modificar Anuncio
+ 
  RF06: Buscar coche.
+ 
  RF07: Filtrar coche
 
 #### 2.2 Requisitos no funcionales
  RnF01: Que sea escalable
+ 
  RnF02: Que sea funcional
+ 
  RnF03: Que tenga una buena durabilidad
 
 #### 2.3 Requisitos de sistema
  RnF01: Disponibilidad 24/7
+ 
  RnF02: Uso de filtros
 
 ___
