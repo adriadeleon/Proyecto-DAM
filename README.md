@@ -178,7 +178,7 @@ ___
 
 ## Requisitos funcionales
 
-Trabajadores
+### Trabajadores
 
  RF01: Eliminar anuncio.
  
