@@ -14,6 +14,9 @@ Podemos ver que en el mercado los diferentes software que hemos encontrado son d
 
 Investigando sobre algunas ideas que hemos tenido, sería correcto crear un software que se dedique a escoger tickets de la O.R.A para poder aparcar en zona azúl, como puede ser el centro de una ciudad, para ello vamos a elaborar dicho software enfocado a la estancia de nuestros clientes con sus respectivos vehículos, registramos su lugar, hora de aparcado, también vamos a registrar sus vehículos y sus datos personales para saber que usuario tiene que coche.
 
+![image](https://user-images.githubusercontent.com/98842240/168495116-65a5aa17-30ac-45d2-aa1c-da7afacfa3a1.png)
+
+
 ___
 - Diagrama del funcionamiento de nuestro Software.
 ___
