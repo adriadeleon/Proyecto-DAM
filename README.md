@@ -35,11 +35,13 @@ ___
 - Metodologias.
 ___
 4 - Metodologías 
+
 4.1 Introducción a las metodologías de desarrollo del software 
 Para poder introducirnos en las metodologías de desarrollo del software  necesitamos entender varias cosas primero, empezando por:  
 - ¿Qué es un método? 
 Un método se compone de diversos aspectos que nos permitirán conseguir  una meta o lograr un objetivo, lo podemos definir mas claramente como un  conjunto de herramientas las cuales utilizadas mediante las técnicas  correctas, permiten la ejecución de procesos que nos llevaran a cumplir los  objetivos que buscamos. 
 Una vez entendido que es un método podemos pasar a: 
+
 - ¿Qué es una metodología? 
 Haciendo referencia al desarrollo del software, una metodología hace cierto  énfasis al entorno en el cual se plantea y estructura el desarrollo de un  sistema. En la programación existen una gran cantidad de metodologías a las cuales haremos referencia mas adelante una vez comprendido lo que son.  Estas metodologías se llevan usando desde hace años, y con el paso del  tiempo han ido evolucionando hasta como las conocemos hoy en día. 
 - ¿En qué consiste una metodología? 
@@ -57,20 +59,30 @@ Las metodologías ágiles se basan en la metodología incremental, en la que en 
  
 4.3 Tipos de metodologías tradicionales 
 Conocemos cinco tipos de metodologías tradicionales de las cuales a  continuación vamos a destacar cuatro de ellas: 
+
 4.3.1 Metodología en cascada 
 El modelo de desarrollo de software en cascada, es una metodología de la  programación muy antigua. Básicamente, el estilo del modelo en cascada,  es que no podrás avanzar a la siguiente fase, si la anterior no se encuentra  totalmente terminada, pues no tiene porque haber vuelta atrás.  
 Las fases de desarrollo de software del modelo en cascada son las  siguientes: 
+
 1. Análisis de requisitos. Este es el primer nivel del modelo en cascada.  Lo que se documenta aquí, son los objetivos de lo que el software debe  hacer al terminar el desarrollo, sin entrar en detalles de la parte  interna, los cuales se verán durante el proceso. 
-2. Diseño del sistema. Lo que continua después del análisis de requisitos  es todo lo que conlleva el armado de un diseño para el sistema que  vayas a utilizar. Aquí se elaborará lo que es la estructura del sistema y  se determinarán las especificaciones para cada una de las partes del  sistema que se planea desarrollar. 
-3. Diseño del programa. En este punto, aun no entramos a lo que es la  estructura del código, sin embargo, ya se realizan los algoritmos que se  van a utilizar en la programación. 
+
+3. Diseño del sistema. 
+
+Lo que continua después del análisis de requisitos  es todo lo que conlleva el armado de un diseño para el sistema que  vayas a utilizar. Aquí se elaborará lo que es la estructura del sistema y  se determinarán las especificaciones para cada una de las partes del  sistema que se planea desarrollar. 
+
+6. Diseño del programa. 
+En este punto, aun no entramos a lo que es la  estructura del código, sin embargo, ya se realizan los algoritmos que se  van a utilizar en la programación. 
  
-4. Codificación. Después del diseño del programa es donde se empezará  a escribir todo el código que será necesario para el desarrollo del  software. Para este punto, la velocidad y el tiempo que se requiera,  dependerá mucho del lenguaje de programación que vayas a utilizar.  (Esto se debe a que algunos programas permiten utilizar componente,  bibliotecas y algunas funciones las cuales pueden acelerar el proceso) 
-5. Ejecución de pruebas. Una vez terminada la fase de codificación, ahora  es momento de verificar que nuestro sistema es realmente funcional,  antes de que el cliente empiece a utilizarlo. Aquí es la fase donde es  recomendable dañar y buscar todos los errores posibles del software,  de modo que se puedan solucionar. 
-6. Verificación. Después de haber realizado una gran cantidad de pruebas en la fase 5, debemos migrar a la verificación. Esta fase consiste en la  ejecución del software por parte del usuario final. Si la fase 5 se ha  realizado correctamente, el software no debería tener ningún tipo de  problema. 
-7. Mantenimiento. Al software generalmente esta en constante  mantenimiento, esto se debe principalmente a que, una vez terminado  el software, se siguen solucionando errores, se quitan algunos bugs, se  añaden funcionalidades, etc.  
+4. Codificación.
+ Después del diseño del programa es donde se empezará  a escribir todo el código que será necesario para el desarrollo del  software. Para este punto, la velocidad y el tiempo que se requiera,  dependerá mucho del lenguaje de programación que vayas a utilizar.  (Esto se debe a que algunos programas permiten utilizar componente,  bibliotecas y algunas funciones las cuales pueden acelerar el proceso) 
+6. Ejecución de pruebas. Una vez terminada la fase de codificación, ahora  es momento de verificar que nuestro sistema es realmente funcional,  antes de que el cliente empiece a utilizarlo. Aquí es la fase donde es  recomendable dañar y buscar todos los errores posibles del software,  de modo que se puedan solucionar. 
+7. Verificación. Después de haber realizado una gran cantidad de pruebas en la fase 5, debemos migrar a la verificación. Esta fase consiste en la  ejecución del software por parte del usuario final. Si la fase 5 se ha  realizado correctamente, el software no debería tener ningún tipo de  problema. 
+8. Mantenimiento. Al software generalmente esta en constante  mantenimiento, esto se debe principalmente a que, una vez terminado  el software, se siguen solucionando errores, se quitan algunos bugs, se  añaden funcionalidades, etc.  
 - Principios básicos del modelo en cascada 
 El modelo en casca es realmente un modelo bastante complejo, sin  embargo, uno de sus principios es que cada una de las fases elaboradas,  se encuentre documentada perfectamente, de este modo, si el desarrollo  queda suspendido en alguna fase, cualquier usuario cualquier usuario  podría continuar el proyecto leyendo la documentación. 
 También es muy común encontrar metodologías para el desarrollo de  software en cascada con fechas y objetivos, tiempos o presupuestos para  algunas de las fases. Aprovechando el hecho de que una vez que has  pasado a una siguiente fase, no es recomendable volver atrás, sabiendo  que tiene un mínimo nivel de tolerancia, aun así, lo correcto del modelo  de cascada es que no puedas volver atrás a realizar modificaciones de  ningún tipo.
+
+![image](https://user-images.githubusercontent.com/98842240/168483433-7913547e-30e1-4cb0-ac5f-91b8bd899618.png)
 
 4.3.2 Metodología del método de prototipos 
 Esta metodología de la programación todavía sigue siendo la favorita de  muchos. Consiste básicamente en que en base a los requerimientos y  necesidades que tiene el cliente, se realiza de forma rápida un prototipo,  este no vendrá completo ni mucho menos terminado, pero si permitirá  contar con las bases necesarias para que cualquier programador pueda  seguir trabajando en el hasta llegar al código final. 
@@ -80,6 +92,8 @@ Al utilizar esta metodología las etapas de desarrollo de software por las  cual
 3. Elaboración del prototipo. Ya que contamos con la planeación de lo  que vamos a realizar y el modelado rápido, entonces es momento de  elaborar el prototipo. Recuerda que este ya se muestra al cliente, así  que ya es una fase importante. 
 4. Desarrollo. Posterior a contar con el prototipo elaborado y mostrado  al cliente, es momento de comenzar el desarrollo. Este te tomará una  gran cantidad de tiempo, dependiendo del tamaño del proyecto y el  lenguaje de programación que se vaya a utilizar. 
 5. Entrega y retroalimentación. Una de las cosas con las que cuenta el  modelo de prototipos, es que, una vez entregado el proyecto, debemos  darle al cliente cierta retroalimentación sobre cómo utilizarlo y  ciertamente es una fase que se encuentra dentro de las etapas de  desarrollo de software esta metodología.
+
+![image](https://user-images.githubusercontent.com/98842240/168483453-cc6585dc-c2c0-46b7-a427-b04fece92217.png)
 
 6. Comunicación con el cliente. Es importante que, una vez entregado el  proyecto, tengamos cierta comunicación con el cliente, básicamente  para que nos indique si el proyecto es correcto o si desea agregarle  ciertas funciones, nuestra metodología lo permite. 
 7. Entrega del producto final. Por último, solamente quedará entregar el  sistema elaborado mediante esta metodología. Aquí tendrás la ventaja  de que el código es reutilizable, para que así con el prototipo ya puedas  simplemente empezar de nuevo y con una buena base de código que  te acelerará el proceso. 
@@ -102,6 +116,8 @@ La idea de un modelo incremental es utilizar una serie de mini modelos de  desar
 Básicamente las fases de cada iteración, son las mismas que se manejan  en el modelo de cascada, aunque también se pueden agregar algunas,  igualmente su objetivo es completar cada fase de la iteración, para que  esta se vaya complementando poco a poco y no se genere un desarrollo  tedioso y cansada que puede alargar la duración del proyecto. 
 Hay que tener en cuenta que cada iteración generara un prototipo cada  vez mas evolucionado, estos se deberán ir guardando por si durante el  proyecto surge la necesidad de querer volver atrás. A diferencia del  modelo de cascada, podemos retroceder cuando se requiera y los  prototipos se pueden volver a utilizar una y otra vez.
 
+![image](https://user-images.githubusercontent.com/98842240/168483420-df5c020c-1e4c-4a64-b77d-caa5edd7f91f.png)
+
  
 4.3.4 Metodología de modelo espiral 
 El modelo en espiral, fue utilizado y diseñado por primera vez por Barry  Boehm en 1986. Este se trata nuevamente de una combinación entre el  modelo de cascada y el modelo de prototipado, sin embargo, a este  sistema lo que debemos añadirle es la gestión de riesgos. 
@@ -117,8 +133,10 @@ Las fases o tareas del modelo espiral son las siguientes:
 Está claro que el modelo en espiral, es sumamente distinto a los demás.  Encontramos por fuera cuatro fases bien organizadas, las cuáles siempre  deben llevar ese orden que se estipula desde el principio. 
 En el modelo de espiral, toda la atención está enfocada hacia el análisis de  riesgos, pues el objetivo primario será reducir los riesgos que se vayan  generando, de otra forma el sistema no llegará a ser seguro jamás.
 
+![image](https://user-images.githubusercontent.com/98842240/168483412-c430e244-1553-4875-8aa8-059bcb6ba76e.png)
 
-4.4. Tipos de metodologías ágiles  
+
+4.4. Tipos de metodologías ágiles.
 Las metodologías ágiles a diferencia de las tradicionales funcionan más como una combinación de estas para lograr un objetivo. Su finalidad  siempre será el crear software de una forma más rápida de lo que se venía logrando con las metodologías de antaño. 
 A continuación, desatacaremos una de las varias metodologías agiles que  existen, esta será la siguiente: 
 4.4.1 Metodología Scrum 
@@ -129,12 +147,15 @@ o Adiós al Secuencial y Cascada. Aquí en el modelo Scrum, hay algo  a lo que s
 o La comunidad es fundamental. Una de las cosas que se realizan,  son los equipos de trabajo, sin embargo, acá la ventaja que tendrás  es que podrás estar en constante comunicación con los otros  equipos de trabajo, nadie está envuelto en su propia burbuja y toda  la información que se maneje o lleve a cabo, será comunicada sin  problema.
 
 - ¿Como funcionan los procesos Scrum? 
+
 La metodología Scrum, es bastante amigable y fomenta lo que es el trabajo  en equipo en todo momento, con la finalidad de conseguir los objetivos de  una forma rápida. 
 A continuación, se mencionan los procesos con los cuales funcionan la  metodología: 
 o Product Backlog. El Product Backlog no es más que una lista de las  funcionalidades del producto a desarrollar. Este debe ser elaborado  por el Product Owner. Sin embargo, no se trata de una lista  cualquiera hecha con escritos y nada más. El Product Backlog debe  estar ordenado de acuerdo a las prioridades del sistema de más a  menos, con la idea de que las cosas con mayor prioridad sean las  que se realicen antes de cualquier cosa. 
 o Sprint Backlog. Una vez que ya contamos con el Product Backlog  terminado, entonces aparecerá el primer Sprint Backlog. Pero ¿Qué  es el Sprint Backlog? Consiste básicamente en seleccionar algunos  de los puntos escritos en el Product Backlog, los cuales procederán  a ser realizados. 
 o Sprint Planning Metting. Antes de iniciar un Sprint, el cual es la fase  de desarrollo, se realiza lo que es un Sprint Planning Meeting. En  este proceso del Scrum, es una reunión que se realiza para definir  plazos y procesos a efectuarse para el proyecto establecido en el  Product Backlog. 
 o Daily Scrum. Cuando un Sprint está en proceso, después de haber  hecho la planeación del proyecto mediante plazos y procesos,  entonces entramos a lo que son los Daily Scrum o Stand-up  Meeting. Aquí básicamente lo que se hace son reuniones diarias  mientras se está llevando a cabo un Sprint, para responder las  siguientes preguntas: ¿Que hice ayer?, ¿Qué voy a hacer hoy, ¿Qué  ayuda necesito?
+
+![image](https://user-images.githubusercontent.com/98842240/168483396-f5df073d-68d1-4d50-8a1a-dafbfd5d1b9b.png)
 
 o Sprint review. El Sprint Review, es básicamente una reseña de lo  que fue el Sprint. Consiste específicamente en la revisión del Sprint  terminado y para este punto ya tendría que haber algo que  mostrarle al cliente 
 o Sprint Retrospective. Para concluir, el Sprint Retrospective,  permite al equipo analizar los objetivos cumplidos, si se cometieron  errores, visualizarlos y tratar de no cometerlos nuevamente más adelante. Básicamente también sirve este proceso para lo que son  la implementación de mejoras. 
