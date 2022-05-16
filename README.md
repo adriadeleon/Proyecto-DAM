@@ -238,5 +238,12 @@ ___
  RnF02: Uso de filtros
 
 ___
-- ???
+- Base de Datos
 ___
+Para empezar con la base de datos debemos tener los diagramas de entidad-relación.
+
+Un borrador que he creado:
+![image](https://user-images.githubusercontent.com/98842240/168651700-9fd8765b-7a6c-4423-a16e-d5cd21062431.png)
+
+
+...
