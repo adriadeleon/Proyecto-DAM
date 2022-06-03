@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="inicio.css">
+    
+    <!--¡ Iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Soporte</title>
+</head>
+<body>
+    <nav class="sidebar open">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src=".\img\agente.png">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Ticket O.R.A.</span>
+                    <span class="profession">Soporte</span>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="inicio.html">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="perfil.html">
+                            <i class='bx bx-user icon'></i>
+                            <span class="text nav-text">Mi perfil</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="configuracion.html">
+                            <i class='bx bx-cog icon'></i>
+                            <span class="text nav-text">Confirguración</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="soporte.html">
+                            <i class='bx bx-support icon'></i>
+                            <span class="text nav-text">Soporte</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ayuda.html">
+                            <i class='bx bx-help-circle icon'></i>
+                            <span class="text nav-text">Ayuda</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>  
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="Login/index.html"> <!-- Hay que modificarlo pq hay que hacer la opción de salir de la cuenta, lo únicoq ue ahce ahora es rediriguirte a la otra página-->
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Cerrar sesión</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Tema oscuro</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <form class="formulario">
+            <h2 class="text">Enviar petición</h2>
+            <div class="nombre">
+                <input type="text" placeholder="Nombre Y Apellidos">
+            </div>
+            <div class="correo">
+                <input type="text" placeholder="Correo electrónico">
+            </div>
+            <div class="numero">
+                <input type="text" placeholder="Número de teléfono">
+            </div>
+            <div class="problema">
+                <input type="text" placeholder="Escribe tu problema aquí.">
+            </div>
+        </form>
+    </section>
+
+    <script>
+        const body = document.querySelector('body'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Tema claro";
+    }else{
+        modeText.innerText = "Tema oscuro";
+    }
+});
+    </script>
+
+</body>
+</html>
