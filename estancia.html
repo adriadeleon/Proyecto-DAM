@@ -84,7 +84,29 @@
     </nav>
 
     <section class="home">
-        <img src=".\img\mapa.jpeg" class="zoom">
+        <div class="container">
+            <img src=".\img\mapa.jpeg" class="image">
+        </div>
+        <form action="mailto:mnegre@cifpfbmoll.com" method="post">
+            <div class="formu">
+                <label for="matricula">Matricula: </label>
+                <input type="text" name="matricula" pattern="[0-9]{8}+[a-z]{9}" maxlength="9">
+                <br><br>
+                <p>En que zona está estacionado su vehículo</p>
+                <input type="radio" id="roja">   
+                <label for="roja">Zona roja</label>         
+                <input type="radio" id="verde">   
+                <label for="verde">Zona verde</label>         
+                <input type="radio" id="azul">   
+                <label for="azul">Zona azul</label>
+                <br><br>
+                <p>Cuanto tiempo estará el vehículo estacionado?</p>
+                <label for="time">Tiempo</label>    
+                <input type="time" id="time">
+                <br><br>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
     </section>
 
     <script>

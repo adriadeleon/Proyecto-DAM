@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="soporte.css">
     
     <!--¡ Iconos -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -84,20 +84,40 @@
     </nav>
 
     <section class="home">
-        <form class="formulario">
-            <h2 class="text">Enviar petición</h2>
-            <div class="nombre">
-                <input type="text" placeholder="Nombre Y Apellidos">
-            </div>
-            <div class="correo">
-                <input type="text" placeholder="Correo electrónico">
-            </div>
-            <div class="numero">
-                <input type="text" placeholder="Número de teléfono">
-            </div>
-            <div class="problema">
-                <input type="text" placeholder="Escribe tu problema aquí.">
-            </div>
+        <div class="content">
+
+            <h1 class="logo">Soporte</h1>
+    
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Contactar</h3>
+        <form action="mailto:mnegre@cifpfbmoll.com" method="post">
+            <p>
+                <label>Nombre completo</label>
+                <input type="text" name="fullname">
+            </p>
+            <p>
+                <label>Correo electronico</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label>Numero de telefono</label>
+                <input type="tel" name="phone">
+            </p>
+            <p>
+                <label>Asunto</label>
+                <input type="text" name="asunto">
+            </p>
+            <p class="block">
+               <label>Mensaje</label> 
+                <textarea name="message" rows="3"></textarea>
+            </p>
+            <p class="block">
+                <button>
+                    Send
+                </button>
+            </p>
+        </div>
         </form>
     </section>
 
