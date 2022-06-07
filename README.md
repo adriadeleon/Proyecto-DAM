@@ -54,47 +54,30 @@ ___
 
 ### Trabajadores
 
- RF01: Eliminar anuncio.
- 
- RF02: Crear anuncio.
- 
- RF03: Modificar Anuncio.
- 
- RF04: Buscar coche.
- 
- RF05: Filtrar coche.
- 
- RF06: Contactar con clientes.
+### Usuario 
 
-### Clientes
+- RF01: Añadir tarjeta.
+- RF02: Eliminar tarjeta.
+- RF03: Añadir coche.
+- RF04: Iniciar ticket.
+- RF05: Detener ticket.
+- RF06: Modificar datos.
+- RF07: Solicitar soporte.
+- RF08: Ver configuración.
 
- RF01: Comprar coche.
- 
- RF02: Solicitar visita.
- 
- RF03: Buscar coche.
- 
- RF04: Reservar coche.
- 
- RF05: Filtrar coche.
- 
- RF06: Contactar con el concesionario.
 
-### Administrador
+### Administrador 
 
- RF01: Añadir trabajador
- 
- RF02: Eliminar trabajador
- 
- RF03: Eliminar anuncio
- 
- RF04: Crear anuncio
- 
- RF05: Modificar Anuncio
- 
- RF06: Buscar coche.
- 
- RF07: Filtrar coche
+- RF01: Añadir tarjeta.
+- RF02: Eliminar tarjeta.
+- RF03: Añadir coche.
+- RF04: Iniciar ticket.
+- RF05: Detener ticket.
+- RF06: Modificar datos.
+- RF07: Solicitar soporte.
+- RF08: Ver configuración.
+- RF09: Modificar usuario.
+
 
 #### 2.2 Requisitos no funcionales
  RnF01: Que sea escalable
